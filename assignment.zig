@@ -1,4 +1,4 @@
-const std = @import("std")
+const std = @import("std");
 
 pub fn main() !void {
     const c: bool = true;
@@ -8,7 +8,7 @@ pub fn main() !void {
 
     const inferred: bool = true;
 
-    var u: bool = undefined
+    var u: bool = undefined;
     u = true;
 
     _ = c;
